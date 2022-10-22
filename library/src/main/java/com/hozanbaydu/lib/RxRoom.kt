@@ -11,7 +11,7 @@ class RxRoom {
     private lateinit var dp:OnlineOrderFoodsDataBase
     private lateinit var foodDao:OnlineOrderFoodsDao
 
-    private fun onlineOrderinsert (context: Context, onlineOrdersFoodsModel:OnlineOrdersFoodsModel){
+     fun onlineOrderinsert (context: Context, onlineOrdersFoodsModel:OnlineOrdersFoodsModel){
 
         dp= Room.databaseBuilder(context,OnlineOrderFoodsDataBase::class.java,"OnlineOrdersFoodsModel").build()
         foodDao=dp.OnlineOrderFoodsDao()
@@ -27,7 +27,7 @@ class RxRoom {
 
     }
 
-    private fun onlineOrderdeleteAll(context: Context){
+     fun onlineOrderdeleteAll(context: Context){
         dp= Room.databaseBuilder(context,OnlineOrderFoodsDataBase::class.java,"OnlineOrdersFoodsModel").build()
         foodDao=dp.OnlineOrderFoodsDao()
         compositeDisposable.add(
@@ -39,7 +39,7 @@ class RxRoom {
         )
     }
 
-    private fun onlineOrdergetAll(context: Context){
+     fun onlineOrdergetAll(context: Context){
         dp= Room.databaseBuilder(context,OnlineOrderFoodsDataBase::class.java,"OnlineOrdersFoodsModel").build()
         foodDao=dp.OnlineOrderFoodsDao()
         compositeDisposable.add(
@@ -52,7 +52,7 @@ class RxRoom {
 
     }
 
-    private fun handleResponse (list: MutableList<OnlineOrdersFoodsModel>){
+     fun handleResponse (list: MutableList<OnlineOrdersFoodsModel>){
 
         var result=list
 

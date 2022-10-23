@@ -27,8 +27,6 @@
             android:layout_margin="3dp"
             android:background="@color/cardview_light_background"
             android:gravity="bottom"
-            android:onClick="@{listener::onFoodClick}"
-
             android:orientation="horizontal">
 
 
@@ -38,19 +36,9 @@
                 android:layout_width="142dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@{foodsModel.name}"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textid"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@{String.valueOf(foodsModel.id)}"
-                android:visibility="gone">
-
-            </TextView>
 
 
             <androidx.cardview.widget.CardView
@@ -64,10 +52,10 @@
                 app:cardUseCompatPadding="true">
 
                 <ImageView
+                    android:id="@+id/imageView"
                     android:layout_width="155dp"
                     android:layout_height="match_parent"
-                    android:layout_gravity="bottom"
-                    android:src="@{foodsModel.image}">
+                    android:layout_gravity="bottom">
 
                 </ImageView>
 

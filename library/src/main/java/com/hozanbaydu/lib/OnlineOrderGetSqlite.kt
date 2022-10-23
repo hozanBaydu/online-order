@@ -35,7 +35,7 @@ class OnlineOrderGetSqlite(val context: Context,val view: RecyclerView) {
         val foodsAdapter= OnlineOrderFoodsAdapter(list)
         view.adapter=foodsAdapter
 
-        println("3")
+
 
 
 

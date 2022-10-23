@@ -1,7 +1,5 @@
 package com.hozanbaydu.lib
 
-import android.content.Context
-import android.content.SharedPreferences
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +9,7 @@ import kotlinx.android.synthetic.main.onlineorderrecyclerrow.view.*
 
 class OnlineOrderFoodsAdapter (val artList:MutableList<OnlineOrdersFoodsModel>): RecyclerView.Adapter<OnlineOrderFoodsAdapter.FoodsHolder>(){
 
-    lateinit var sharedPreferences: SharedPreferences
+
 
     class FoodsHolder(view: View ) : RecyclerView.ViewHolder(view) {
 
@@ -41,9 +39,7 @@ class OnlineOrderFoodsAdapter (val artList:MutableList<OnlineOrdersFoodsModel>):
             Toast.makeText(holder.itemView.context,name+" Sepetten çıkarıldı.", Toast.LENGTH_SHORT).show()
 
 
-            sharedPreferences=holder.itemView.context.getSharedPreferences("com.hojo.kotlin",
-                Context.MODE_PRIVATE)
-            sharedPreferences.edit().putBoolean(itemPosition,false).apply()
+
 
         }
 
@@ -53,9 +49,7 @@ class OnlineOrderFoodsAdapter (val artList:MutableList<OnlineOrdersFoodsModel>):
 
             Toast.makeText(holder.itemView.context,a+" Sepete eklendi.", Toast.LENGTH_SHORT).show()
 
-            sharedPreferences=holder.itemView.context.getSharedPreferences("com.hojo.kotlin",
-                Context.MODE_PRIVATE)
-            sharedPreferences.edit().putBoolean(itemPosition,true).apply()
+
 
         }
 

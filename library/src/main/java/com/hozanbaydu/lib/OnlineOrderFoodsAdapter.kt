@@ -26,7 +26,7 @@ class OnlineOrderFoodsAdapter (val artList:MutableList<OnlineOrdersFoodsModel>):
 
     override fun onBindViewHolder(holder: FoodsHolder, position: Int) {
         holder.itemView.textView.text=artList.get(position).name
-        holder.itemView.imageView.setImageResource(position)
+         setImageViewResource(holder.itemView.imageView,artList.get(position).image)
 
 
 

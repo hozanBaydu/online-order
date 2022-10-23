@@ -54,7 +54,7 @@ class RxRoom {
 
      fun handleResponse (list: MutableList<OnlineOrdersFoodsModel>){
 
-        var result=list
+        println(list)
 
 
 

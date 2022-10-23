@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="onlineorderpurple_200">#FFBB86FC</color>
+        <color name="onlineorderpurple_500">#FF6200EE</color>
+        <color name="onlineorderpurple_700">#FF3700B3</color>
+        <color name="onlineorderteal_200">#FF03DAC5</color>
+        <color name="onlineorderteal_700">#FF018786</color>
+        <color name="onlineorderblack">#FF000000</color>
+        <color name="onlineorderwhite">#FFFFFFFF</color>
+        <color name="onlineorderblue">#49D3C6</color>
+        <color name="onlineorderdarkblue">#05177E</color>
+        <color name="onlineorderred">#EA3333</color>
+
+
+</resources>

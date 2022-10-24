@@ -126,5 +126,7 @@ fonksiyonu ile nasıl gösterildiğini anlatmaktadır.Görüldüğü üzere Line
 ![giriş sayfası](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCpSUxdvgATE_fImDDdFhQ_ShD6NkZz_-4eU_eS2u_fdxESrX-AExx7qLH52T8y4u9LraScyOBHZiZpam9Gj1EUhWfcRBgvfEk114CxF7ezVztYomI1m7OoaYjpa2fc4RcHk6J7JYr_Ekwp5R1RfXQ2E3p-c8cG-eakwpQbsw3ETPqKpftdQPPIh1Y/s400/online.jpeg)
 
 Uygulamayı yazan:Hozan BAYDU
+
 Tarih:20.08.2022
-iletişim:hozan.baydu3447@gmail.com
+
+İletişim:hozan.baydu3447@gmail.com

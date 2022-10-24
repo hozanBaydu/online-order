@@ -25,22 +25,12 @@ class OnlineOrderGetSqlite(val context: Context,val view: RecyclerView) {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(this::handleResponse)
         )
-
-
     }
-
     fun handleResponse (list: MutableList<OnlineOrdersFoodsModel>){
 
         view.layoutManager= LinearLayoutManager(context)
         val foodsAdapter= OnlineOrderFoodsAdapter(list)
         view.adapter=foodsAdapter
-
-
-
-
-
-
-
     }
 
 }
